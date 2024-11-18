@@ -1,0 +1,269 @@
+---
+layout: default
+---
+
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('img/bg-index.jpg');height:700px;">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <img src="img/CCS-logo.png" alt="Italian Trulli" width="200">
+
+            <h1 style="color:#F0F8FF;">{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading">{{ site.date }}</span>
+            <span class="subheading">{{ site.position }}</span>
+
+            <span class="subheading"><a href="https://whova.com/portal/acmcc_202410/?source=btn_link"
+                title="Event management software" id="whova-buttonlink" target="_blank"
+                style="margin: 20px; background-color:#2DACEE; padding:5px; border-radius:5px; color:#fff; font-size:16px" />Get
+              Whova Now</a></span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container" style="margin-bottom:40px">
+    <div class="newsTitle" style="margin-top:80px">
+      <h2>Last Updates </h2>
+    </div>
+    <div class="row" style="margin:0 20px 0 20px">
+      <div class="news">
+        <ul>
+          <li><b>January 21, 2024</b>:
+            <a href="https://www.sigsac.org/ccs/CCS2024/call-for/call-for-sponsorship.html">Call for sponsorship</a>
+            Online!
+          </li>
+          <li><b>December 7, 2023</b>:
+            We are taking <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdIUJ0RfisB9XlEKjzBVr5StwWbuBG1agMKJSFpENi6cHEwTw/viewform">nomination
+              for PC members</a> </li>
+          <li><b>December 5, 2023</b>:
+            Call For Posters & Demos Online!</li>
+          <li><b>December 1, 2023</b>:
+            Call For Paper online!</li>
+          <li><b>November 26, 2023</b>:
+            Website online! </li>
+          <!-- <li><b>Nov 12, 2022</b>:
+          Congratulations to all awardees of <a href="{{ site.url | append: '/program/awards.html' }}">Best Paper Awards</a> and <a href="{{ site.url | append: '/program/awards.html' }}"> Best Reviewer Awards</a>. </li>
+
+    <li><b>October 31, 2022</b>:
+          Please pay attention to <a href="{{ site.url | append: '/attending/survey.html' }}"> 2022 Conference Climate and Harassment Survey</a> </li>
+    <li><b>September 30, 2022</b>:
+          <a href="{{ site.url | append: '/attending/registration.html' }}">The deadline of early registration (October 8, 2022)</a> is approaching.</li>
+    <li><b>September 29, 2022</b>:
+          <a href="{{ site.url | append: '/program/schedule.html' }}">The conference schedule</a> is published.</li>
+    <li><b>September 29, 2022</b>:
+          <a href="{{ site.url | append: '/workshops/workshops.html' }}">Two tutorials</a> are published now.</li>
+    <li><b>September 17, 2022</b>:
+          <a href="{{ site.url | append: '/program/accepted-papers.html' }}">The list of accepted papers </a> is available now.</li>
+		<li><b>August 12, 2022</b>:
+                  <a href="{{ site.url | append: '/call-for/call-for-test-of-time.html' }}">Call for Test-of-Time award </a> is available now.</li>
+		<li><b>August 12, 2022</b>:
+                  <a href="{{ site.url | append: '/attending/registration.html' }}">Registration information </a> is available now.</li>
+        <li><b>August 9, 2022</b>:
+                  <a href="{{ site.url | append: '/call-for/call-for-tutorials.html' }}">Call for tutorials </a> is available now. Submission deadline is <a style="color:red;text-decoration: none;">August 22, 2022</a>. </li>
+        <li><b>July 13, 2022</b>:
+                  <a href="{{ site.url | append: '/attending/conference-grants.html' }}">Student Conference Grants </a> are open to applications now. Submission deadline is <a style="color:red;text-decoration: none;">October 1, 2022</a>. </li>
+		<li><b>June 26, 2022</b>:
+                  <a href="{{ site.url | append: '/call-for/call-for-posters.html' }}">Call for posters & demos </a> is available now. Submission deadline is <a style="color:red;text-decoration: none;">August 16, 2022</a>. </li>
+		<li><b>May 24, 2022</b>:
+                  The list of <a href="{{ site.url | append: '/workshops.html' }}">workshops</a> is annouced!</li>
+		<li><b>April 26, 2022</b>:
+                  The <a href="https://ccs2022b.hotcrp.com/">submission website</a> for the second cycle is now open!</li>
+		<li><b>March 18, 2022</b>:
+                  The deadline of <a href="{{ site.url | append: '/call-for/call-for-workshops.html' }}">Call for workshops</a> is extended to March 25.</li>
+		<li><b>February 25, 2022</b>:
+                  <a href="{{ site.url | append: '/call-for/call-for-sponsorship.html' }}">Call for sponsorship</a> is available now.</li>
+		<li><b>February 17, 2022</b>:
+                  <a href="{{ site.url | append: '/call-for/call-for-workshops.html' }}">Call for workshops</a> is available now.</li>
+		<li><b>January 7, 2022</b>:
+                  The <a href="https://ccs2022a.hotcrp.com/">submission website</a> is now open!</li>
+		<li><b>January 5, 2022</b>:
+                  The <a href="{{ site.url | append: '/organization/program-committee.html' }}">program committee</a> is now listed.</li>
+		<li><b>December 20, 2021</b>:
+                  <a href="{{ site.url | append: 'call-for/call-for-papers.html' }}/">Call for papers</a> is available now.</li>
+		<li><b>December 7, 2021</b>: Submission deadlines for ACM CCS 2022 are
+           <a style="color:red;text-decoration: none;">January 14, 2022</a> and <a style="color:red;text-decoration: none;">May 2, 2022</a>.</li>
+
+        <li><b>November 13, 2021</b>: Please submit the ACM CCS 2022 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd9XDpJMFyQlDdnLLJ1hZockaOid3W8QjLWf4gYn_vZeygPFw/viewform" style="color:red;text-decoration: none;">PC Nomination Form</a>. </li> -->
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+  <section id="sponsors" style="visibility: visible;">
+    <div class="container">
+      <div class="section-header ">
+        <h2>Sponsors</h2>
+      </div>
+      <div style="text-align: center;">
+        <div class="diamond">
+          <div class="col">
+            <a href="https://sigsac.org/"><img class="sponsor-logo-image"
+                src="https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/img/2b93a50f4ae66ef22042bce7b20836e6.png"
+                alt="ACM SIGSAC"></a>
+          </div>
+        </div>
+      </div>
+      <!-- <p>CCS 2024 is sponsored by the following organizations</p>  -->
+      <!-- <h3>Coming Soon! </h3> -->
+
+      <!-- <h1 style="color:#0000A0;"><b>Diamond Patrons</b></h1>
+      <div class="diamond">
+      </div>
+      <br>
+
+      <h2 style="color:#878785;"><b>Platinum Patrons</b></h2>
+      <div class="platinum">
+	    <div class="col">
+            <a href="https://nsf.gov/">
+              <img src="img/sponsors/nsf.png" >
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.huawei.com/">
+              <img src="img/sponsors/huawei.png" >
+            </a>
+        </div>
+      </div>
+      <br>-->
+
+      <h3 style="color:#D4AF37; text-align: center;">Gold Patrons</h3>
+      <div style="text-align: center;" class="gold">
+        <div class="col">
+          <a href="https://www.antgroup.com/">
+            <img src="img/sponsors/Ant-Research-logo.svg">
+          </a>
+        </div>
+      </div>
+
+      <!-- <h3 style="color:#757575;">Silver Patrons</h3>
+
+      <div class="sliver">
+
+      </div>
+      <br> -->
+
+      <h3 style="color:#CD7F32; text-align: center;">Bronze Patrons</h3>
+      <div class="gold">
+        <div class="col">
+          <a href="https://www.cisco.com/">
+            <img src="https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/img/7fd053e042df4e2d4919e9c593ceb48c.png">
+          </a>
+        </div>
+      </div>
+      </h3>
+  </section>
+
+  <!--
+<section id="sponsors" style="visibility: visible;">
+    <div class="container">
+      <div class="section-header ">
+        <h2>Sponsors</h2>
+      </div>
+      <p>CCS 2024 is sponsored by the following organizations</p>
+
+      <h1 style="color:#0000A0;"><b>Diamond Patrons</b></h1>
+      <div class="diamond">
+      </div>
+      <br>
+
+      <h2 style="color:#878785;"><b>Platinum Patrons</b></h2>
+      <div class="platinum">
+	    <div class="col">
+            <a href="https://nsf.gov/">
+              <img src="img/sponsors/nsf.png" >
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.huawei.com/">
+              <img src="img/sponsors/huawei.png" >
+            </a>
+        </div>
+      </div>
+      <br>
+
+      <h3 style="color:#D4AF37;">Gold Patrons</h3>
+      <div class="gold">
+        <div class="col">
+            <a href="https://chainlinklabs.com/">
+              <img src="img/sponsors/chainlink-lab.png" >
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://ibm.com">
+              <img src="img/sponsors/ibm.jpg">
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://meta.com/">
+              <img src="img/sponsors/meta.png">
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.google.com/">
+              <img src="img/sponsors/google.png">
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://www.tii.ae/">
+              <img src="img/sponsors/tii.png">
+            </a>
+        </div>
+      </div>
+
+      <h3 style="color:#757575;">Silver Patrons</h3>
+
+      <div class="sliver">
+
+      </div>
+      <br>
+
+      <h3 style="color:#CD7F32;">Bronze Patrons</h3>
+      <div class="bronze">
+        <div class="col">
+            <a href="https://iohk.io/">
+              <img src="img/sponsors/iohk.png">
+            </a>
+        </div>
+		<div class="col">
+            <a href="https://www.cisco.com/">
+              <img src="img/sponsors/cisco.jpg">
+            </a>
+        </div>
+      </div>
+</h3>
+  </section>
+
+<section id="sponsors" style="visibility: visible;">
+            <div>
+                <div title="Whova event and conference app" id="whova-sponsorwidget">
+                    <p id="whova-loading">Loading...</p>
+                </div>
+                <script src="https://whova.com/static/frontend/xems/js/whova-sponsor-widget.js?eid=E7Z1vMGb4rNB%405OG6PXyHJSmQwhknhWGLqk3AFdvs7w%3D&host=https://whova.com" type="text/javascript"  id="embeded-sponsor-script">
+                </script>
+                <div id="whova-wrap">
+                    Powered By
+                    <a class="brandlink" target="_blank" href="https://whova.com/blog/event-registration-software-price-comparison/">
+                        <b>Whova</b>
+                    </a>
+                    <br/>
+                    <a id="whova-emslink" class="brandanchorlink" target="_blank" href="https://whova.com/blog/event-registration-software-price-comparison/">
+                        Event registration
+                    </a>
+                </div>
+            </div>
+  </section>
+-->

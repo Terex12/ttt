@@ -1,0 +1,133 @@
+title:              ACM CCS 2024
+email:              ccs24-general-chairs@acm.org
+description:        CCS2024
+date:               October 14-18, 2024
+position:           Salt Lake City, U.S.A.
+# baseurl:            "startbootstrap-clean-blog-jekyll"
+url:                ""
+
+
+
+# Social Profiles
+twitter_username:   CCS
+facebook_username:  CCS
+instagram_username:
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-twitter-plugin
+
+navbar:
+  - title: Home
+    url: /home.html
+  - title: Co-located Events
+    url: /workshops/workshops.html
+  - title: Call for
+    url: /call-for
+    sublinks:
+      - subtitle: Call for Papers
+        url: /call-for/call-for-papers.html
+      - subtitle: Call for Doctoral Symposium
+        url: /call-for/call-for-doctoral-symposium.html
+      - subtitle: Call for DEI Participation
+        url: /call-for/call-for-dei.html
+      - subtitle: Call for Posters & Demos
+        url: /call-for/call-for-posters.html
+      # - subtitle: Call for Workshops
+      #   url: /call-for/call-for-workshops.html
+      # - subtitle: Call for Tutorials
+      #   url: /call-for/call-for-tutorials.html
+      - subtitle: Call for Sponsors
+        url: /call-for/call-for-sponsorship.html
+      - subtitle: Call for Artifacts
+        url: /call-for/call-for-artifacts.html
+      - subtitle: AE Appendix
+        url: /call-for/appendix-ae.html
+  - title: Attending
+    url: /attending
+    sublinks:
+      - subtitle: Registration
+        url: /attending/registration.html
+      - subtitle: Travel Information
+        url: /attending/travel-related-information.html
+      - subtitle: Diversity, Equity and Inclusion 
+        url: /attending/DEI.html
+      - subtitle: Student Conference Grants
+        url: /attending/conference-grants.html
+        #       - subtitle: Survey
+        #         url: /attending/survey.html
+  - title: Program
+    url: /program
+    sublinks:
+      - subtitle: Awards
+        url: /program/awards.html
+        #       - subtitle: Compact Schedule
+        #         url: /program/compact_schedule.html
+      - subtitle: Schedule
+        url: /program/schedule.html
+      - subtitle: Doctoral Symposium
+        url: /program/doctoral-symposium.html
+      - subtitle: Accepted Papers
+        url: /program/accepted-papers.html
+  - title: Proceedings
+    url: /proceedings
+    sublinks:
+      - subtitle: CCS
+        url: /proceedings/ccs-proceedings.html
+        #       - subtitle: AISec Workshop
+        #         url: /proceedings/aisec-proceedings.html
+        #       - subtitle: AMSec Workshop
+        #         url: /proceedings/amsec-proceedings.html
+        #       - subtitle: ConsensusDay Workshop
+        #         url: /proceedings/consensusday-proceedings.html
+        #       - subtitle: Checkmate Workshop
+        #         url: /proceedings/checkmate-proceedings.html
+        #       - subtitle: CCSW Workshop
+        #         url: /proceedings/ccsw-proceedings.html
+        #       - subtitle: ASHES Workshop
+        #         url: /proceedings/ashes-proceedings.html
+        #       - subtitle: CPSIoTSec Workshop
+        #         url: /proceedings/cpsiotsec-proceedings.html
+        #       - subtitle: DeFi Workshop
+        #         url: /proceedings/defi-proceedings.html
+        #       - subtitle: MTD Workshop
+        #         url: /proceedings/mtd-proceedings.html
+        #       - subtitle: WAHC Workshop
+        #         url: /proceedings/wahc-proceedings.html
+        #       - subtitle: SCORED Workshop
+        #         url: /proceedings/scored-proceedings.html
+  - title: Organization
+    url: /organization
+    sublinks:
+      - subtitle: Organizing Committee
+        url: /organization/organizing-committee.html
+      - subtitle: Program Committee
+        url: /organization/prog-committee.html
+      # - subtitle: Poster Committee
+      #   url: /organization/coming-soon.html
+
+  # - title: Organization
+  #   url: /organization
+  #   sublinks:
+  #     - subtitle: Program Committee
+  #       url: /organization/prog-committee.html
+  #     - subtitle: Organizing Committee
+  #       url: /organization/organizing-committee.html
+  - title: Code
+    url: /code
+    sublinks:
+      - subtitle: Code of Conduct
+        url: /code-of-conduct/code-of-conduct.html
+      - subtitle: Diversity and Inclusion
+        url: /code-of-conduct/diversity-and-inclusion.html
+
