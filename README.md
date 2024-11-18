@@ -1,4 +1,4 @@
-## CCS 2022 Official Website
+## ICS 2025 Official Website
 
 This website is established on Jekyll.
 
@@ -7,7 +7,6 @@ Install Jekyll following the official [tutorial](https://jekyllrb.com/docs/insta
 ```
 bundle install
 bundle exec jekyll server # run the server for testing
-ssh -p 20022 -N -f -L 4000:localhost:<jekyll website port> <username>@128.195.180.78 # build a tunnel to view the website on the local browser (localhost:4000)
 bundle exec jekyll build # generate the `_site` for the deploy.
 ```
 
