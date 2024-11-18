@@ -413,6 +413,7 @@ h6 {
   padding: 15px;
   cursor: pointer;
   color: #fff;
+  max-width: 1px;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
